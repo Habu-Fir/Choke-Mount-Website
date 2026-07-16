@@ -1,0 +1,8 @@
+{
+  "name": "Digo Tsion Cultural & Investment Portal",
+  "description": "An interactive cultural and investment portal for Digo Tsion town, Bibugn wereda, East Gojjam, Ethiopia, showcasing local history, events, interactive map, photo galleries, and investor registration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
