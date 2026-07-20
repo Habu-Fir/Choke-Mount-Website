@@ -1,6 +1,7 @@
 // src/components/sections/CultureSection.tsx
 import { useLanguage } from '../../context/LanguageContext';
 import { Trees, Milestone } from 'lucide-react';
+import gojjamCultureRiders from '../../assets/images/gojjam_culture_riders_1782218878158.jpg';
 
 export default function CultureSection() {
     const { t } = useLanguage();
@@ -11,7 +12,7 @@ export default function CultureSection() {
 
             <div className="lg:col-span-4 rounded-2xl overflow-hidden aspect-video lg:aspect-square shadow-md bg-stone-100">
                 <img
-                    src="/src/assets/images/gojjam_culture_riders_1782218878158.jpg"
+                    src={gojjamCultureRiders}
                     alt="Elite Gojjam Horsemen riders"
                     className="object-cover w-full h-full"
                 />
