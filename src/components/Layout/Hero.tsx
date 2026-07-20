@@ -1,6 +1,7 @@
 // src/components/layout/Hero.tsx
 import { useLanguage } from '../../context/LanguageContext';
 import { Sparkles, ChevronRight } from 'lucide-react';
+import chokeMountainHero from '../../assets/images/choke-mountain-hero.jpg';
 
 export default function Hero() {
     const { language, t } = useLanguage();
@@ -18,7 +19,7 @@ export default function Hero() {
                 and save it as src/assets/images/choke-mountain-hero.jpg). */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/src/assets/images/choke-mountain-hero.jpg"
+                    src={chokeMountainHero}
                     alt=""
                     aria-hidden="true"
                     className="w-full h-full object-cover"
