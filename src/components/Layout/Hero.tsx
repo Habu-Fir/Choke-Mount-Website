@@ -48,7 +48,7 @@ export default function Hero() {
                     through everywhere else while text stays fully readable. */}
                 <div className="space-y-3 sm:space-y-4 bg-stone-950/45 backdrop-blur-[2px] rounded-3xl px-4 sm:px-10 py-6 sm:py-8 inline-block max-w-3xl mx-auto">
                     <h1 className="text-4xl sm:text-6xl font-serif font-extrabold text-white tracking-tight leading-none max-w-4xl mx-auto drop-shadow-lg">
-                        {language === 'en' ? 'Digo Tsion & ' : 'ቢቡኝ እና '} <br className="sm:hidden" />
+                        {language === 'en' ? 'Bibugn & ' : 'ቢቡኝ እና '} <br className="sm:hidden" />
                         <span className="text-lime-400 relative inline-block">
                             {language === 'en' ? 'Mount Choke' : 'ጮቄ ተራራ'}
                             <span className="absolute left-0 right-0 bottom-1 h-1.5 bg-emerald-500/35 rounded"></span>
