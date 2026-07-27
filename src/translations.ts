@@ -181,7 +181,7 @@ export const translations: Record<'en' | 'am', TranslationDict> = {
 
     // Hero
     welcomeBadge: 'Welcome to Bibugn Wereda, Digo Tsion!',
-    heroHeadline: 'Digo Tsion & Mount Choke',
+    heroHeadline: 'Bibugn & Mount Choke',
     heroSubtitle: 'Explore the untouched cultural history, majestic Afro-alpine ecosystems, weekly organic honey markets, and booming eco-tourism projects in the high valleys of East Gojjam, Amhara.',
     exploreBtn: 'Explore Interactive Map',
     prospectusBtn: 'Investment Prospectus',
