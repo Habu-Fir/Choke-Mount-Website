@@ -168,13 +168,13 @@ export default function AdminLogin() {
                     </button>
                 </form>
 
-                <div className="text-center text-xs text-stone-500 bg-emerald-50 rounded-lg p-3 border border-emerald-100">
-                    {/* <p className="font-mono">
+                {/* <div className="text-center text-xs text-stone-500 bg-emerald-50 rounded-lg p-3 border border-emerald-100">
+                    <p className="font-mono">
                         {language === 'en'
                             ? 'Default: superadmin@digotsion.com / superadmin123'
                             : 'ነባሪ፡ superadmin@digotsion.com / superadmin123'}
-                    </p> */}
-                </div>
+                    </p>
+                </div> */}
 
                 {/* Home link at bottom */}
                 <div className="text-center">
