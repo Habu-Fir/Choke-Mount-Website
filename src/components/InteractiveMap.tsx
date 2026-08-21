@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { useState } from 'react';
+import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   Compass,
@@ -319,7 +319,7 @@ export default function InteractiveMap() {
                         {language === 'en' ? 'Key Experience Highlights' : 'ዋና ዋና የመስህብ ነጥቦች'}
                       </h4>
                       <div className="grid grid-cols-1 gap-1">
-                        {selectedLandmark.highlights.map((h, idx) => (
+                        {selectedLandmark.highlights.map((h: string | number | bigint | boolean | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<string | number | bigint | boolean | ReactPortal | ReactElement<unknown, string | JSXElementConstructor<any>> | Iterable<ReactNode> | null | undefined> | null | undefined, idx: Key | null | undefined) => (
                           <div key={idx} className="flex items-center gap-2 text-stone-800">
                             <span className="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
                             <span>{h}</span>

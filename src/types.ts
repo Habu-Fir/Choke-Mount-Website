@@ -533,3 +533,35 @@ export const getCategoryLabel = (category: PostCategory): string => {
 export const getRoleLabel = (role: UserRole): string => {
   return ROLE_LABELS[role] || role;
 };
+
+// In src/types/index.ts - add these interfaces
+export interface InvestorSector {
+  id: string;
+  name: string;
+  localName?: string;
+  description: string;
+  localDescription?: string;
+  demand: 'Critical' | 'High' | 'Moderate';
+  localDemand?: string;
+  minimumCapital: string;
+  localMinimumCapital?: string;
+  growth: string;
+  localGrowth?: string;
+  incentives: string[];
+  localIncentives?: string[];
+  contactPerson: string;
+  localContactPerson?: string;
+}
+
+export interface InvestorRegistration {
+  id: string;
+  companyName: string;
+  investorName: string;
+  sectorId: string;
+  email: string;
+  phone: string;
+  proposedBudget: string;
+  proposalBrief: string;
+  registeredAt: string;
+  status: 'Pre-Approved' | 'Under Review' | 'Pending Verification';
+}
