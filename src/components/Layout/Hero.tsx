@@ -112,7 +112,7 @@ export default function Hero() {
         const recordView = async () => {
             try {
                 const response = await fetch(
-                    `${import.meta.env.VITE_API_URL}/api/stats/views`,
+                    `${import.meta.env.VITE_API_URL}/stats/views`,
                     {
                         method: 'POST',
                         headers: {
